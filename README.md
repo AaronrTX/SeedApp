@@ -49,3 +49,15 @@ Click on 'Add the Firebase Database SDK to your app'
 
 Go to build (on the left side) - Realtime Database - create Database - Next - Click on **locked mode** - enable
 
+
+
+To run, if you get an error of something in drawable requires new version of comileSdk = 34
+
+Go to Gradie Scripts - build.gradle.kts (Module :app)
+  Go to compileSdk and change it from 
+    33 to 34
+    Save and sync it
+
+
+
+
