@@ -44,10 +44,11 @@ Go to add project - then keep continuing - Make sure to click connect at the end
 
 Click on 'Add the Firebase Database SDK to your app'
 
+Click add realtime database
 
 //Go back to your browser where you have firebase console open
 
-Go to build (on the left side) - Realtime Database - create Database - Next - Click on **locked mode** - enable
+Go to build (on the left side) - Realtime Database - create Database - Next - Click on test mode - enable
 
 
 
