@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
 
-    tools:context=".SignupActivity">
+    tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -32,16 +32,17 @@
                 android:textColor="@color/lavender"/>
 
             <EditText
+                android:id="@+id/login_username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_Student_ID"
-                android:background="@drawable/lavender_border"
                 android:layout_marginTop="20dp"
-                android:padding="8dp"
-                android:hint="Student ID"
+                android:background="@drawable/lavender_border"
                 android:drawableLeft="@drawable/baseline_person_pin_24"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black"/>
+                android:hint="username"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

@@ -151,7 +151,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/login_Student_ID"
+                android:id="@+id/profileUsername"
                 android:text="Student ID"
                 android:layout_weight="1"
                 android:textAlignment="viewEnd"
